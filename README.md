@@ -1,5 +1,13 @@
 # [Binance API](https://binance-docs.github.io/apidocs/spot/en/#change-log)
 
+## .env
+
+```
+DATABASE=
+API_KEY=
+
+```
+
 ## ticker price
 
 ```
