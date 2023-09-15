@@ -6,6 +6,12 @@
 bash ./src/getters/ticker/price.sh LTCBTC
 ```
 
+## PARSE 60 sec diff
+
+```sh
+bash ./src/notebooks/diff.sh LTCBTC
+```
+
 ## .env
 
 ```
