@@ -13,3 +13,5 @@ content="${4}"
 mkdir -p "${DATABASE}/${index}/${id}"
 touch "${DATABASE}/${index}/${id}/${prop}"
 echo "${content}"> "${DATABASE}/${index}/${id}/${prop}"
+
+ls -la "${DATABASE}/${index}/${id}/${prop}"
