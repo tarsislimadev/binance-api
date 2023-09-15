@@ -1,6 +1,6 @@
-# [binance](https://binance-docs.github.io/apidocs/spot/en/#change-log)
+# [Binance API](https://binance-docs.github.io/apidocs/spot/en/#change-log)
 
-## GET api/v3/ticker/price
+## ticker/price
 
 ```
 bash ./src/getters/ticker/price.sh LTCBTC
