@@ -20,7 +20,7 @@ while [[ true ]];
 
 do
 
-resp=$( bash curl.sh "${path}" "symbol=${symbol}" )
+resp=$( bash get.sh "${path}" "symbol=${symbol}" )
 
 price=$( echo "${resp}" | jq '.price' | sed -e 's/"//ig' )
 
