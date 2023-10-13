@@ -3,9 +3,9 @@
 ## .env
 
 ```
-DATABASE=
+DATABASE=./data
+PRIVATE_KEY_PATH=
 API_KEY=
-
 ```
 
 ## ticker price
