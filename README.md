@@ -10,8 +10,8 @@
 
 ```
 DATABASE=./data
-PRIVATE_KEY_PATH=
 API_KEY=
+
 ```
 
 ## how to use
