@@ -4,9 +4,9 @@
 
 [Donate](https://link.mercadopago.com.br/brtmvdl) - [Telegram](https://t.me/+KRmg5MlqgMk0MTg5) - [Discord](https://discord.gg/4JFAWPYs)
 
-## install
+## how to install
 
-### .env
+### .env file
 
 ```
 DATABASE=./data
