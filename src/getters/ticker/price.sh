@@ -2,6 +2,8 @@
 
 # inputs
 
+. datetime.sh
+
 path="ticker/price"
 
 symbol="${1}"
@@ -10,12 +12,6 @@ symbol="${1}"
 
 resp=$( bash get.sh "${path}" "symbol=${symbol}" )
 
-price=$( echo "${resp}" | jq '.price' | sed -e 's/"//ig' )
-
-. datetime.sh
-
 # outputs
 
 bash create.sh "${path}/${symbol}" "${datetime}" "resp" "${resp}"
-
-bash create.sh "${path}/${symbol}" "${datetime}" "price" "${price}"
