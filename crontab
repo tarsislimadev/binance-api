@@ -1,0 +1,3 @@
+#!/usr/bin/sh
+
+# * * * * * cd /media/neon/db08fecc-a533-4651-815e-456bdcb9c86d/projects/github.com/binance-api && bash ./src/getters/ticker/price.sh LTCBTC
