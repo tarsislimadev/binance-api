@@ -21,19 +21,13 @@ API_KEY=
 ### ticker price
 
 ```
-bash ./src/getters/ticker/price.sh LTCBTC
+bash ./src/ticker/price.sh LTCBTC
 ```
 
 ### convert getQuote
 
 ```
-bash ./src/getters/convert/getQuote.sh 100 BRL BNB
-```
-
-### PARSE 60 sec diff
-
-```sh
-bash ./src/notebooks/diff.sh LTCBTC
+bash ./src/convert/getQuote.sh 100 BRL BNB
 ```
 
 ## license
